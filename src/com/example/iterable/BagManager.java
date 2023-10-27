@@ -31,7 +31,7 @@ public class BagManager {
         stringBag.add("Tangerine");
         stringBag.add("Peach");
 
-        stringBag.forEach(System.out::println);
+        //stringBag.forEach(System.out::println);
         System.out.println();
 
         System.out.println("Empty? " + stringBag.isEmpty());

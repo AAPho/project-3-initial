@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public interface Iterable<T> {
 
-    void forEach(Object o);
+    //void forEach();
     Iterator<T> iterator();
 
 }

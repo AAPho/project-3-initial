@@ -1,8 +1,6 @@
 package com.example.iterable;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Bag<T> implements Container<T>, Iterable<T>{
 
@@ -25,12 +23,12 @@ public class Bag<T> implements Container<T>, Iterable<T>{
     public void add(T item) {
         this.bag.add(item);
     }
-
+/*
     @Override
-    public void forEach(Object o) {
-        this.bag.indexOf(o);
-    }
+    public void forEach() {
 
+    }
+*/
     @Override
     public Iterator<T> iterator() {
         return this.bag.listIterator();
